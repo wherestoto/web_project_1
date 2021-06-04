@@ -14,7 +14,9 @@
   min-height: 600px;
   max-height: 756px;
   /* parameters for the header section */
+  /* Brief says to use flexbox to center the element vertically */
   display: flex;
+  align-items: center;
   position: relative;
   background-color: #F2F2F2;
 }
@@ -34,9 +36,7 @@
 .header__title {
   margin: 0;
   margin-left: 64px;
-  width: 730px;
-  display: flex;
-  align-items: center;
+  max-width: 730px;
   z-index: 2;
   line-height: 96px;
   font-size: 102px;
@@ -110,7 +110,7 @@
   margin-top: 30px;
 }
 
-.two-columns__paragraph_margin_top {
+.two-columns__paragraph:first-child {
   margin-top: 0;
 }
 
@@ -128,13 +128,12 @@
 }
 
 .section-title {
+  margin: 0;
   width: 60%;
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
-  display: flex;
-  justify-content: center;
-  margin: 0;
+  text-align: center;
 }
 
 .section-subtitle {
@@ -149,16 +148,13 @@
 }
 
 .table {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   width: 1100px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .table__cell {
@@ -190,7 +186,7 @@
   background-size: 867px 637px;
   background-repeat: no-repeat;
   background-color: #F2F2F2;
-  height: 790px;
+  min-height: 790px;
   padding: 100px 0 0;
   position: relative;
 }
@@ -209,7 +205,6 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -240,6 +235,7 @@
   width: 660px;
   height: 636px;
   position: absolute;
+  top: 0;
   right: -124px;
   z-index: 0;
 }
@@ -310,6 +306,7 @@
 }
 
 .footer__author {
+  margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -324,6 +321,9 @@
 }
 
 .footer__column-link {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
