@@ -1,60 +1,17 @@
+@import url(./__columns/footer__columns.css);
+@import url(./__column/footer__column.css);
+@import url(./__column/_content/footer__column_content_copyright.css);
+@import url(./__author/footer__author.css);
+@import url(./__column-heading/footer__column-heading.css);
+@import url(./__column-link/footer__column-link.css);
+@import url(./__list/footer__list.css);
+@import url(./__link/footer__link.css);
+@import url(./__social-icons/footer__social-icons.css);
+
 .footer {
   padding: 60px 0 40px;
   background-color: #1F1F1F;
   min-height: 250px;
   color: white;
   justify-content: center;
-}
-
-.footer__columns {
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-}
-
-.footer__column {
-  min-height: 250px;
-}
-
-.footer__column_content_copyright {
-  flex-basis: 711px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
-.footer__author {
-  margin: 18px 0;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.footer__column-heading {
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: bold;
-  margin: 0;
-  margin-bottom: 20px;
-}
-
-.footer__column-link {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.footer__link {
-  text-decoration: none;
-  color: white;
-}
-
-.footer__social-icons {
-  margin-right: 10px;
-  width: 16px;
-  height: 16px;
 }

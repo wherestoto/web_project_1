@@ -1,3 +1,11 @@
+@import url(./__cell/table__cell.css);
+@import url(./__heading/table__heading.css);
+@import url(./__text/table__text.css);
+@import url(./_theme/table_theme_dark.css);
+@import url(./__cell/_theme/table__cell_theme_dark.css);
+@import url(./__heading/_theme/table__heading_theme_dark.css);
+@import url(./__text/_theme/table__text_theme_dark.css);
+
 .table {
   list-style: none;
   padding: 0;
@@ -6,49 +14,4 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.table__cell {
-  width: 250px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 60px;
-}
-
-.table__heading {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.table__text {
-  margin: 0;
-  margin-top: 20px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-
-.table_theme_dark {
-  margin-right: auto;
-  margin-left: auto;
-  z-index: 1;
-}
-
-/* including elements with key-value modifiers */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
-.table__heading_theme_dark {
-  margin-bottom: 20px;
-}
-
-.table__text_theme_dark {
-  margin: 0;
 }
