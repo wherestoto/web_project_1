@@ -1,0 +1,12 @@
+@import url(./__logo-zone/resources__logo-zone.css);
+@import url(./__list/resources__list.css);
+@import url(./__link/resources__link.css);
+@import url(./__logo/resources__logo.css);
+@import url(./__logo/_ted/resources__logo_ted.css);
+@import url(./__logo/_medium/resources__logo_medium.css);
+@import url(./__logo/_dezeen/resources__logo_dezeen.css);
+@import url(./__logo/_goodreads/resources__logo_goodreads.css);
+
+.resources {
+  margin: 100px auto 217px;
+}

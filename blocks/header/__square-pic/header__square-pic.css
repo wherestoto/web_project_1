@@ -6,4 +6,6 @@
   top: 64px;
   right: 0;
   background-color: #2F80ED;
+  transform: rotate(15deg);
+
 }
