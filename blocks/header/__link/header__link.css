@@ -2,9 +2,9 @@
   color: #2F80ED;
   text-decoration-line: none;
   opacity: 1;
-  transition: opacity .4s linear .2s;
+  transition: opacity .4s ease-out .2s;
 }
 
 .header__link:hover {
-  opacity: .7;
+  opacity: .5;
 }
