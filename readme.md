@@ -15,8 +15,8 @@ This project was used to practice principles of web development using HTML & CSS
 
 <!-- Instructions on deployment -->
 ## To Deploy this Project
-~~1. Fork repo~~
-~~2. Deploy website through your own code editor or development tools~~
+1. ~~Fork repo~~
+2. ~~Deploy website through your own code editor or development tools~~
 
 * [Link to Project on GitHub Pages](https://wherestoto.github.io/web_project_1/)
 
