@@ -2,6 +2,8 @@
 # Learning How to Learn - A Practicum Project
 By Yury Choe
 
+* [Link to Project on GitHub Pages](https://wherestoto.github.io/web_project_1/)
+
 <!-- Project Description: Features, Functionality, why you've made it, what problem should it address, all technologies you've worked with while dev'ing your project -->
 This project was used to practice principles of web development using HTML & CSS with instruction from Practicum Yandex with a theme of "learning how to learn".
 
